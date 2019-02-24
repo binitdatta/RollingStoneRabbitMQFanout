@@ -1,0 +1,32 @@
+Json payload to test the POST Sales Order Create Method
+
+TODO 
+
+1. Insert an record in the employee record
+2. insert a record in the user
+3. insert a record in the address
+4. insert a record in the account
+5. insert a record in the item
+
+{  
+   "orderNumber":"ORD_1000",
+   "totalOrderAmount":120.00,
+   "specialInstruction":"CB Modi",
+   "salesDate":"2019-01-18",
+   "employee":{  
+      "id":1
+   },
+   "account":{  
+      "id":1
+   },
+   "salesOrderDetails":[  
+      {  
+         "itemLineNo":"p1000",
+         "pricePerUnit":10.00,
+         "itemQuantity":12,
+         "item":{  
+            "id":1
+         }
+      }
+   ]
+}
